@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="gameOfLife.js"></script>
+		<style>
+			th, td {
+			  border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center"> Game of Life </h1>
+		 <div class="col-sm-3 my-1">
+	      <input type="text" class="form-control" id="height" placeholder="Height">
+	    </div>
+	  	<div class="col-sm-3 my-1">
+	      <input type="text" class="form-control" id="width" placeholder="Width">
+	    </div>
+	  	<button type="submit" class="btn btn-primary" onclick="drawTable()">Submit</button>
+	  	<div id="gameSpace">
+	  		
+	  	</div>
+	</body>
+</html>
